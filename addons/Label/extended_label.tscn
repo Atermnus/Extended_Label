@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://ci6et6mv5k75y"]
+
+[ext_resource type="Script" path="res://addons/extendedlabel/Label/Extended_Label.gd" id="1_h0vvt"]
+
+[node name="Extended_Label" type="Label"]
+editor_description = "Extended Label."
+offset_right = 173.0
+offset_bottom = 28.0
+theme_override_colors/font_color = Color(1, 0.956863, 0.796078, 1)
+theme_override_font_sizes/font_size = 20
+text = "THIS IS THE TEST"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+script = ExtResource("1_h0vvt")
