@@ -13,3 +13,47 @@ horizontal_alignment = 1
 vertical_alignment = 1
 autowrap_mode = 2
 script = ExtResource("1_h0vvt")
+TEXT_SIZE = 3
+FONT_SIZES = Array[Dictionary]([{
+Vector2(1280, 800): 10,
+Vector2(1377, 966): 11,
+Vector2(1680, 1050): 12,
+Vector2(1920, 1080): 13,
+Vector2(2560, 1440): 15
+}, {
+Vector2(1280, 800): 11,
+Vector2(1377, 966): 12,
+Vector2(1680, 1050): 13,
+Vector2(1920, 1080): 14,
+Vector2(2560, 1440): 16
+}, {
+Vector2(1280, 800): 12,
+Vector2(1377, 966): 13,
+Vector2(1680, 1050): 15,
+Vector2(1920, 1080): 16,
+Vector2(2560, 1440): 20
+}, {
+Vector2(1280, 800): 13,
+Vector2(1377, 966): 14,
+Vector2(1680, 1050): 18,
+Vector2(1920, 1080): 20,
+Vector2(2560, 1440): 24
+}, {
+Vector2(1280, 800): 16,
+Vector2(1377, 966): 18,
+Vector2(1680, 1050): 20,
+Vector2(1920, 1080): 24,
+Vector2(2560, 1440): 28
+}, {
+Vector2(1280, 800): 18,
+Vector2(1377, 966): 20,
+Vector2(1680, 1050): 22,
+Vector2(1920, 1080): 26,
+Vector2(2560, 1440): 30
+}, {
+Vector2(1280, 800): 20,
+Vector2(1377, 966): 22,
+Vector2(1680, 1050): 24,
+Vector2(1920, 1080): 30,
+Vector2(2560, 1440): 36
+}])

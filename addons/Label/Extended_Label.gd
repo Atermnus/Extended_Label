@@ -30,6 +30,7 @@ func set_label_size():
 
 
 	resolution = Vector2(ProjectSettings.get_setting("display/window/size/viewport_width"),ProjectSettings.get_setting("display/window/size/viewport_height"))
+
 	set("theme_override_font_sizes/font_size",FONT_SIZES[TEXT_SIZE][resolution])
 
 	
@@ -39,6 +40,7 @@ func set_label_size():
 ## FONT SIZES. Mess with this if you don't like the sizes.
 @export var FONT_SIZES : Array[Dictionary] = [{
 #### SMALLEST
+	Vector2(1152,648) : 10,
 	Vector2(1280,800) : 10,
 	Vector2(1377,966) : 11,
 	Vector2(1680,1050) : 12,
@@ -47,6 +49,7 @@ func set_label_size():
 },
 #### SMALL
 {
+	Vector2(1152,648) : 11,
 	Vector2(1280,800) : 11,
 	Vector2(1377,966) : 12,
 	Vector2(1680,1050) : 13,
@@ -55,6 +58,7 @@ func set_label_size():
 },
 #### MEDIUM
 {
+	Vector2(1152,648) : 12,
 	Vector2(1280,800) : 12,
 	Vector2(1377,966) : 13,
 	Vector2(1680,1050) : 15,
@@ -63,6 +67,7 @@ func set_label_size():
 },
 #### MEDIUMER
 {
+	Vector2(1152,648) : 13,
 	Vector2(1280,800) : 13,
 	Vector2(1377,966) : 14,
 	Vector2(1680,1050) : 18,
@@ -71,6 +76,7 @@ func set_label_size():
 },
 #### BIG
 {
+	Vector2(1152,648) : 16,
 	Vector2(1280,800) : 16,
 	Vector2(1377,966) : 18,
 	Vector2(1680,1050) : 20,
@@ -79,6 +85,7 @@ func set_label_size():
 },
 #### LARGER
 {
+	Vector2(1152,648) : 18,
 	Vector2(1280,800) : 18,
 	Vector2(1377,966) : 20,
 	Vector2(1680,1050) : 22,
@@ -87,6 +94,7 @@ func set_label_size():
 },
 #### LARGEST
 {
+	Vector2(1152,648) : 20,
 	Vector2(1280,800) : 20,
 	Vector2(1377,966) : 22,
 	Vector2(1680,1050) : 24,
